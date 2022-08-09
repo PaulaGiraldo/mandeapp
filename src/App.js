@@ -5,6 +5,8 @@ import Soycliente from './pages/Soycliente'
 import Clienteregister from './pages/Clienteregister'
 import Soyexperto from './pages/Soyexperto'
 import Expertoregister from './pages/Expertoregister'
+import Inicioc from './pages/Inicioc';
+import Inicioe from './pages/Inicioe';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
     <Route path="clienteregister" element={<Clienteregister />} />
     <Route path="soyexperto" element={<Soyexperto />} />
     <Route path="expertoregister" element={<Expertoregister />} />
+    <Route path="inicioc" element={<Inicioc />} />
+    <Route path="inicioe" element={<Inicioe />} />
    </Routes>
    </BrowserRouter>
   );
