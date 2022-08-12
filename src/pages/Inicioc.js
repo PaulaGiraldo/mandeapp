@@ -7,7 +7,11 @@ const Inicioc = () => {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo"/>
         </header>
-        <div className ="col md-4">
+        <div className ="d-flex align-items-center justify-content-center">
+          Labores con expertos disponibles
+        </div>
+        <div className ="d-flex align-items-center justify-content-center">
+          contenido de back
         </div>
       </div>
     );
