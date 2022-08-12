@@ -1,6 +1,9 @@
 import './Ca.css';
 import logo from './logoh.svg';
 import { Link } from 'react-router-dom';
+import FormEstrellas from '../FormEstrellas';
+
+
 
 const Ca = () => {
     return (
@@ -10,7 +13,7 @@ const Ca = () => {
         </header>
         <div className ="col md-4">
         Todo listo, califica tu experiencia.
-        Formulario estrellas
+        <FormEstrellas></FormEstrellas>
         Formulario Pago
         Gracias por usar nuestros servicios
         <Link to="/inicioc" className="btn btn-outline-secondary">Volver al inicio</Link>

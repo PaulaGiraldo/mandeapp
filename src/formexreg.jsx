@@ -1,6 +1,20 @@
 import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
+import Select from 'react-select';
 import * as Yup from 'yup';
+
+const laboresE = [
+    {value:"plomero" ,label:"Plomero"},
+    {value:"cerrajero" ,label:"Cerrajero"},
+    {value:"paseadorPerros" ,label:"Paseador de perros"},
+    {value:"manicurista" ,label:"Manicurista"},
+    {value:"peluqueria" ,label:"Peluqueria"},
+    {value:"barberia" ,label:"Barberia"},
+    {value:"tutoriaArte" ,label:"Tutoria de arte"},
+    {value:"limpiaVentanas" ,label:"Limpieza de ventanas"},
+    {value:"maquillista" ,label:"Maquillista"},
+    {value:"modista" ,label:"Modista"},
+];
 
 const FormVal = Yup.object({
     nombre: Yup.string().required('Necesario'),
@@ -56,9 +70,17 @@ const Formexr = () => (
           <input type ="file" name ="fotop"/>
           <ErrorMessage name="fotop" component="div" />
           Documento de identidad
-          <input type ="file" name="mediopago"/>
-          <ErrorMessage name="mediopago" component="div" />
+          <input type ="file" name="documento"/>
+          <ErrorMessage name="documento" component="div" />
           Labores a desempeñar
+          <Select
+            defaultValue={[]}
+            isMulti
+            name="Labores"
+            options={laboresE}
+            className="basic-multi-select"
+            classNamePrefix="select"
+            />
           <button type="submit"  className="btn btn-outline-secondary" disabled={isSubmitting}>
             Registrarme
           </button>

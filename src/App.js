@@ -7,6 +7,7 @@ import Soyexperto from './pages/Soyexperto'
 import Expertoregister from './pages/Expertoregister'
 import Inicioc from './pages/Inicioc';
 import Inicioe from './pages/Inicioe';
+import Ca from './pages/Ca';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     <Route path="expertoregister" element={<Expertoregister />} />
     <Route path="inicioc" element={<Inicioc />} />
     <Route path="inicioe" element={<Inicioe />} />
+    <Route path="ca" element={<Ca />} />
    </Routes>
    </BrowserRouter>
   );
