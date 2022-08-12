@@ -1,6 +1,6 @@
+import Formexr from '../formexreg';
 import './Expertoregister.css';
 import logo from './logonol.svg';
-import { Link } from 'react-router-dom';
 
 const Expertoregister = () => {
   return (
@@ -9,7 +9,7 @@ const Expertoregister = () => {
         <img src={logo} className="ExpertoR-logo" alt="logo"/>
       </header>
       <div className ="col md-4">
-      Aquí va un formulario
+        <Formexr></Formexr>
       </div>
     </div>
   );

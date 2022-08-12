@@ -2,6 +2,7 @@ import './Soyexperto.css';
 import logo from './logonol.svg';
 import { Link } from 'react-router-dom';
 import ContentRec from '../contentRec'
+import Formine from '../forminicioe';
 
 
 const Soyexperto = () => {
@@ -15,7 +16,7 @@ const Soyexperto = () => {
         <ContentRec title="Soy experto Mande" bgcolor="rgba(217, 217, 217, 1)"/>
       </div>
       <br/>
-      <br/>
+      <Formine></Formine>
       <br/>
       ¿No tienes una cuenta?
       <Link to="/expertoregister">Registrate aquí</Link>

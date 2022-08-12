@@ -2,7 +2,7 @@ import './Soycliente.css';
 import logo from './logonol.svg';
 import { Link } from 'react-router-dom';
 import ContentRec from '../contentRec'
-
+import Forminc from '../forminicioc';
 
 const Soycliente = () => {
   return (
@@ -15,7 +15,7 @@ const Soycliente = () => {
         <ContentRec title="Ya soy cliente" bgcolor="rgba(217, 217, 217, 1)"/>
       </div>
       <br/>
-      <br/>
+      <Forminc></Forminc>
       <br/>
       ¿No tienes una cuenta?
       <Link to="/clienteregister">Registrate aquí</Link>
