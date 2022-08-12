@@ -1,6 +1,5 @@
 import './Clienteregister.css';
 import logo from './logonol.svg';
-import { Link } from 'react-router-dom';
 import ContentRec from '../contentRec'
 import Formclir from '../formclireg';
 
