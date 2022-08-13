@@ -1,10 +1,11 @@
 ###### Proyecto base de datos
 
-# MANDE APP
-Mande, es un emprendimiento que permite, desde el celular, conseguir personas
-trabajadoras, expertas y honestas para realizar a domicilio labores del día a día en el hogar.
+##INFORME
+https://docs.google.com/document/d/1hiKIHWG3udKg4izZZKlXPod-AZRb4efWxEA4ePOHgHw/edit?usp=sharing
+##MANUAL DE USUARIO
+https://docs.google.com/document/d/1shM5ldCxBGXOcFbu520N6hkHiwv3OyC45msKA14Q61s/edit
 
-# Como correr el repositorio?
+## Como correr el repositorio?
 
 Tanto en la carpeta FRONTEND y en la carpeta BACKEND encender una consola y escribir los siguientes comandos: (recordar tener node js instalado en la computadora)
 
