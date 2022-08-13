@@ -1,8 +1,8 @@
 ###### Proyecto base de datos
 
-##INFORME
+## INFORME
 https://docs.google.com/document/d/1hiKIHWG3udKg4izZZKlXPod-AZRb4efWxEA4ePOHgHw/edit?usp=sharing
-##MANUAL DE USUARIO
+## MANUAL DE USUARIO
 https://docs.google.com/document/d/1shM5ldCxBGXOcFbu520N6hkHiwv3OyC45msKA14Q61s/edit
 
 ## Como correr el repositorio?
