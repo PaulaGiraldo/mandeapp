@@ -12,4 +12,4 @@ Tanto en la carpeta FRONTEND y en la carpeta BACKEND encender una consola y escr
 ### npm start
 
 # Acceder al frontEND
-Se acede en el localhost:3000, desde alli se puede acceder al login y a los diferentes registros.
+Se acede en el localhost:3000, desde alli se puede acceder al login y a los diferentes formularios.
